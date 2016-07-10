@@ -1,0 +1,2227 @@
+@font-face {
+    font-family: 'Arial-bold-italic';
+    src: url('../fonts/arial_bold_italic-webfont.eot');
+    src: url('../fonts/arial_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial_bold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/arial_bold_italic-webfont.woff') format('woff'),
+         url('../fonts/arial_bold_italic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 1310px;
+	width: 1000px;
+	background-color: #ffffff;
+	font-family: Arial;
+}
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+/* ---------------- HEADER ---------------- */
+header {
+	padding-left: 44px;
+	margin-top: 17px;
+}
+.first-line {
+	display: block;
+	position: relative;
+	left: 2px;
+}
+/* -- Contact -- */
+.contact {
+	display: block;
+	position: absolute;
+	left: 6px;
+	top: 4px;
+}
+.trubka {
+	float: left;
+	width: 21px;
+	height: 21px;
+	background: linear-gradient(to bottom, #0c3357, #1f6786);
+	border-radius: 100%;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 1px;
+}
+img.trubka {
+	width: 15px;
+	height: 20px;
+}
+.phone {
+	display: block;
+	width: 290px;
+	font-size: 19px;
+	font-variant: small-caps;
+	color: rgb(94, 105, 109);
+	line-height: 1.315;
+	text-align: center;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	-webkit-transform: scaleY(0.91) translate3d(0, 0, 0);
+}
+
+/* -- Autorization --  */
+.autor-line {
+	display: inline-block;
+	position: relative;
+	border-radius: 3px;
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	box-shadow: 2px 3px 3px 0px rgba(150, 150, 150, 0.75);
+	border-top: 1px solid #e0e4e6;
+	border-bottom: 1px solid #596d80;
+	position: absolute;
+	left: 313px;
+	top: 0px;
+	width: 495px;
+	height: 25px;
+}
+.men {
+	margin: 4px 0 0 7px;
+	width: 14px;
+	height: 18px;
+}
+.log {
+	position: absolute;
+	left: 19px;
+	top: 3px;
+	}
+.log input {
+	float: left;
+	margin-left: 5px;
+	margin-right: 1px;
+	padding-left: 3px;
+	padding-bottom: 1px;
+	width: 110px;
+	height: 15px;
+	background-color: #fff;
+	border: 1px solid #9ba1a3;
+	border-radius: 2px;
+	font-family: Lucida Sans Unicode;
+	font-size: 11px;
+	color: #97a2a6;
+	vertical-align: middle;
+}
+
+.log button{
+	float: left;
+	position: relative;
+	margin-left: 6px;
+	margin-top: 1px;
+	border: none;
+	background: none;
+	font-family: Lucida Sans Unicode;
+	font-size: 11px;
+	color: #fff;
+}
+/* -- vertical line between enter - registration -- */
+.log button:after {
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 10px;
+	top: 4px;
+	left: 31px;
+	background: white;
+	content: "";
+	z-index: 2;
+}
+.regist {
+	display: block;
+	position: absolute;
+	left: 283px;
+	top: 1px;
+	font-family: Lucida Sans Unicode;
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+	transform: scaleX(0.96);
+}
+.forgot {
+	display: block;
+	position: absolute;
+	left: 372px;
+	top: 3px;
+	height: 13px;
+	border-bottom: 1px solid #7c8794;
+}
+div.log div.forgot a {
+	display: block;
+	font-family: Lucida Sans Unicode;
+	font-size: 12px;
+	color: #bfbfbf;
+	text-decoration: none;
+	line-height: 13px;
+	vertical-align: middle;
+}
+
+/* --  pictograms -- */
+
+.pictogram {
+	display: block;
+	position: relative;
+	top: 2px;
+	left: 825px;
+	width: 60px;
+	height: 18px;
+	border: 1px solid #bdc4c7;
+	border-radius: 10px/10px 10px 9px 9px;
+	padding: 0 7px 1px 8px;
+	background: white;
+}
+.upper {
+		display: block;
+		position: relative;
+		overflow: hidden;
+		top: 2px;
+		line-height: 12px;
+}
+.pictogram a {
+	display: block;
+	float: left;
+	height: 11px;
+	margin-top: 0px;
+	transform: scaleY(0.98);
+	background: white;
+	z-index: 1;
+}
+.pictogram a.map {
+	margin: 0px 9px 0 8px;
+}
+/* ---------- shadow --------- */
+div.pictogram:before {
+		display: block;
+        content:"";
+        position:absolute;
+        z-index:-2;
+        bottom:4px;
+        left:3px;
+        width:93%;
+        height:76%;
+		border-radius: 10px/10px 10px 9px 9px;
+		background: rgba(100, 100, 100, 0.5);
+        box-shadow:0 2px 5px 2px rgba(100, 100, 100, 0.7);
+    -webkit-transform:rotate(2deg);
+            transform:rotate(2deg);
+}
+.foot-img {
+	display: block;
+	position: relative;
+	left: 1px;
+	margin: 16px 0 2px;
+}
+.foot-img img {
+	width: 909px;
+	height: 237px;
+}
+
+/* ---------- MENU ---------- */
+
+.menu-line {
+	display: inline-block;
+	position: relative;
+	width: 910px;
+	height: 32px;
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 84%, rgb(87,96,104) 100%);
+	border: 1px solid rgb(13, 22, 66);
+	border-top-left-radius: 7px 4px;
+	border-top-right-radius: 7px 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;	
+	box-shadow: 2px 4px 6px -2px rgba(0, 0, 0, 0.7);
+}
+.menu {
+	display: block;
+	float: left;
+	width: 510px;
+	margin-left: 121px;
+}
+ul.menu {
+	list-style-type: none;
+	margin-top: 2px;
+}
+ul.menu li {
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+ul.menu li a {
+	display: block;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: Lucida Sans Unicode;
+	color: #b1bcc0; 
+	text-decoration: none;
+	-webkit-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
+}
+ul.menu li:first-child  {
+	width: 135px;
+}
+ul.menu li:nth-child(2) {
+	width: 77px;
+}
+ul.menu li:nth-child(3) {
+	width: 116px;
+}
+ul.menu li:nth-child(4) {
+	width: 71px;
+}
+ul.menu li:last-child  {
+	width: 109px;
+}	
+ul.menu li a:hover {
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	border-radius: 14px;
+	color: white;
+}
+
+/* -------- BASKET ----------  */
+
+.amount {
+	display: inline-block;
+	float: right;
+	margin-top: 9px;
+	margin-right: 15px;
+	padding-bottom: 1px;
+	font-family: Arial;
+	
+}
+.amount span{
+	display: block;
+	float: left;
+	color: #929b9f;
+	font-size: 10px;
+	transform: matrix( 1.15909090909091,0,0,1.109375,0,0);
+}
+#amount{
+	margin-left: 18px;
+	font-size: 12px;
+	color: rgb(13, 90, 143);
+	transform: scale(1.1,1.01);
+}
+.summa {
+	display: block;
+	position: relative;
+	top: 1px;
+	left: 3px;
+}
+.basket {
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	margin-right: 16px;
+	padding-bottom: 1px;
+	font-family: Arial;
+}
+.basket span{
+	display: block;
+	float: left;
+	color: #929b9f;
+	font-size: 10px;
+	transform: matrix( 1.15909090909091,0,0,1.109375,0,0);
+}
+#basket{
+	margin-left: 5px;
+	font-size: 11px;
+	color: rgb(13, 90, 143);
+}
+.basket a{
+	display: block;
+	position: absolute;
+	top: -3px;
+	left: -30px;
+	float: left;
+}
+
+/* ------------------------  MAIN  ------------------------ */
+main {
+	margin: 8px 0 0;
+	padding-left: 44px; 
+}
+
+
+/* -- Search block --  */
+.search-block {
+	width: 906px;
+	height: 142px;
+	box-sizing: border-box;
+	padding-left: 6px;
+	margin-bottom: 7px;
+}
+
+.find-box {                          /* ---- блок поиска по автомобилю ---- */
+	display: block;
+	position: relative;
+	border: 1px solid rgb(156, 156, 157);
+	border-radius: 17px;
+}
+.auto {
+	width: 412px;
+	height: 132px;
+	float: left;
+	box-shadow: 3px 3px 3px 0px rgba(104, 104, 104, 0.7);
+}
+.auto-top {
+	display: block;
+	position: absolute;
+	left: 116px;
+	top: -4px;
+}
+.auto-top h2 {
+	font-size: 14px;
+	font-family: Arial Black;
+	transform: scale(0.9, 0.95);
+	text-align: center;
+	color: rgb(21, 68, 103);
+}
+.auto-top h2:first-letter {
+	font-size: 13px;
+}
+.auto-l {
+	display: block;
+	float: left;
+	margin-left: 13px;
+	margin-top: 2px;
+}
+.auto-r {
+	display: block;
+	position: absolute;
+	right: 21px;
+	top: 0px;
+}
+.auto-l > p, .auto-r p {
+	font-size: 10px;
+	font-family: Arial Black;
+	color: rgb(21, 68, 103);
+	margin-left: 7px;
+	transform: scale(1.05,1.05);
+}
+/* -- блок фильтра --  */
+.filter {
+	display: block;
+	position: relative;
+	top: 9px;
+	left: 3px;
+	font-family: Arial;
+	font-size: 9px;
+	color: #77858b;
+}
+.f-disk {
+	top: 25px;
+	left: 17px;
+}
+.f-shin {
+	top: 23px;
+	left: 222px;
+}
+.auto span.black, .auto p.black {                       /* черный текст */
+	color: black;
+	font-weight: bold;
+	font-size: 10px;
+}
+.longed {
+	font-size: 108%
+}
+
+.marka-search-block {
+	display: block;
+	position: relative;
+	top: 0px;
+	left: 17px;
+}
+select {
+	height: 17px;
+	border: none;
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(25,85,119) 30%, rgb(17,65,101) 100%);
+	background: url('../img/select-opener.png') 100% 0 no-repeat; 
+	background-position-y: 1px; 
+	box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.4);
+	-webkit-appearance: none;
+	cursor: pointer;
+	font-size: 11px;
+	padding-left: 3px;
+}
+select.marka, select.model, select.year, select.compl {           /* блок селекторов */
+	position: absolute;
+	width: 102px;
+}
+select.marka {
+	top: -5px;
+}
+select.model {
+	top: 17px;
+}
+select.year {
+	top: 39px;
+}
+select.compl {
+	top: 61px;
+}
+.filter-discr {
+	display: block;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+
+div.marka, div.model  {          /*  описание селекторов выбора  */
+	display: block;
+	position: absolute;
+	width: 70px;
+	line-height: 0.889em;
+	height: 22px;
+}
+div.marka {
+	top: 2px;
+	left: -1px;
+}
+div.model {
+	top: 18px;
+	left: -1px;
+}
+div.year-black {
+	display: block;
+	position: absolute;
+	width: 70px;
+	line-height: 0.889em;
+	height: 22px;
+	top: 39px;
+	left: -5px;
+	color: black;
+	font-weight: bold;
+	font-size: 11px;
+	transform: scale(0.873, 0.85);
+}
+div.y-small {
+	transform: scale(0.78, 0.85);
+	left: -8px;
+}
+div.year {
+	display: block;
+	position: absolute;
+	width: 70px;
+	line-height: 0.889em;
+	height: 22px;
+	top: 47px;
+	left: -5px;
+	font-size: 11px;
+	transform: scale(0.87, 0.85);
+}
+
+div.compl {
+	display: block;
+	position: absolute;
+	width: 70px;
+	line-height: 0.889em;
+	height: 22px;
+	top: 65px;
+	left: -6px;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	transform: scale(0.87, 0.85);
+}
+div.compl-small {
+	left: -5px;
+	transform: scale(0.89, 0.85);
+}
+
+select.small {
+	width: 58px;
+}
+
+				/* кнопка ПОИСК */
+
+.submit {
+	display: table;
+	position: absolute;
+	right: 20px;
+	top: 107px;
+	border: none;
+	border-bottom: 2px solid #a6b1bc;
+	line-height: 1.02;
+	background: white;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 15px;
+	color: #154467;
+}
+
+/* ------------ Блок поиска шин по разметности ----------- */
+
+.dimention {
+	position: relative;
+	top: -1px;
+	width: 191px;
+	height: 135px;
+	margin-left: 14px;
+	float: left;
+	box-shadow: 3px 3px 3px 0px rgba(104, 104, 104, 0.5);
+}
+
+.find-box + .dimention {
+	border-radius: 18px;
+}
+
+.dimention-top {
+	position: relative;
+	left: -4px;
+	top: -1px;
+}
+.dimention-top h2{
+	font-size: 14px;
+	font-family: Arial Black;
+	transform: scale(0.85, 0.85);
+	color: rgb(21, 68, 103);
+	text-align: left;
+}
+.dimention span.black, .dimention p.black {                       /* черный текст */
+	color: black;
+	font-weight: bold;
+	font-size: 10px;
+}
+.razmer-shin {
+	display: block;
+	position: absolute;
+	left: 12px;
+	top: 24px;
+}
+.razmer-radius {
+	display: block;
+	position: absolute;
+	left: 45px;
+	top: 45px;
+}
+.razmer-radius p {
+	position: relative;
+	top: 5px;
+	left: 0px;
+	font-size: 11px;
+	font-weight: 600;
+}
+.razmer-season {
+	display: block;
+	position: absolute;
+	left: 14px;
+	top: 63px;
+}
+
+
+
+.dimention-block {
+	display: block;
+	position: relative;
+	top: 3px;
+	left: 59px;
+}
+select.razmer-shin-h {           /* блок селекторов */
+	float: left;
+	width: 50px;
+	background-size: 30% 105%;
+	
+}
+.dimention-block  span {
+	margin: 0 6px;
+	font-size: 13px;
+	vertical-align: bottom;
+}
+select.razmer-shin-w {
+	display: block;
+	position: absolute;
+	left: 66px;
+	top: 1px;
+	width: 51px;
+	height: 16px;
+	background-size: 34% 110%;
+	background-position-y: 0px; 
+	box-shadow: inset 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+}
+select.razmer-shin-r {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+	width: 45px;
+	height: 17px;
+	background-size: 38% 110%;
+	background-position-y: 0px; 
+	box-shadow: inset 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+	padding-left: 2px;
+}
+.dimention .submit {
+	right: 18px;
+	top: 108px;
+}
+
+/* check-box  поиск шин по сезону */
+.check-season {
+	position: relative;
+	top: 28px;
+	left: 5px;
+	line-height: 0.8em;
+	transform: scale(1.06, 1);
+}
+.check-season input[type="checkbox"] {
+	display:none;
+}
+.check-season input[type="checkbox"] + label {
+	font-size: 11px;
+	font-weight: 600;
+	font-family: "Lucida Sans Unicode";
+	line-height: 1.0em;
+	cursor: pointer;
+}
+.check-season input[type="checkbox"] + label::before {
+	content: ""; 
+    display: inline-block;
+	position: relative;
+	left: -1px;
+	top: 2px;
+	width: 9px;
+	height: 10px; 
+	border: 1px solid #efefef;
+	box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.check-season input[type="checkbox"] + label::before {
+    background-position: 2px 5px;    
+}
+.check-season input[type="checkbox"]:checked + label::before {
+	content: "";
+    display: inline-block;
+	position: relative;
+	left: -3px;
+	top: 2px;
+	width: 9px;
+	height: 10px; 
+	border: 1px solid #efefef;
+	box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5);                           
+	background: url('../img/checked.png'); 
+	background-position: 0px 0px;
+}
+
+/* ------------------ Поиск дисков  --------------  */
+	
+.diski {
+	position: relative;
+	top: -2px;
+	width: 266px;
+	height: 134px;
+	float: left;
+	margin-left: 10px;
+	font-family: Arial;
+	color: #77858b;
+	box-shadow: 3px 3px 3px 0px rgba(104, 104, 104, 0.5);
+}
+.diski-top {
+	position: relative;
+	left: 4px;
+	top: 0px;
+}
+.diski-top h2{
+	font-size: 14px;
+	font-family: Arial Black;
+	transform: scale(0.97, 0.85);
+	text-align: center;
+	color: rgb(21, 68, 103);
+	text-align: left;
+}
+.diski span.black, .diski p.black {                       /* черный текст */
+	color: black;
+	font-weight: bold;
+	font-size: 10px;
+}
+div.diam-disk, div.kolich-otv, div.diam-raspol {      /*  описание селекторов выбора  */
+	display: block;
+	position: absolute;
+	width: 85px;
+	height: 22px;
+}
+.diam-disk {
+	left: 18px;
+	top: 26px;
+	font-size: 10px;
+	font-family: "Lucida Sans Unicode";
+	line-height: 0.889em;
+	word-spacing: -1px;
+	transform: scale(1.1, 0.9);
+}
+.kolich-otv {
+	left: 17px;
+	top: 39px;
+	line-height: 1.0em;
+	font-size: 10px;
+	font-family: "Lucida Sans Unicode";
+}
+
+.kolich-otv p span.black {
+	display: block;
+	position: relative;
+	top: 2px;
+	left: 0px;
+	font-size: 97%;
+	font-family: "Lucida Sans Unicode";
+	transform: scale(1.1, 0.9);
+}
+.kolich-otv p span.black:first-letter {
+	font-size: 11px;
+}
+.kolich-otv p span{
+	display: block;
+	position: relative;
+	top: 1px;
+	left: -2px;
+	width: 50px;
+	line-height: 1.1em;
+	font-weight: 500;
+	font-size: 99%;
+	font-family: "Lucida Sans Unicode";
+	transform: scale(1.01, 0.9);
+}
+
+.diam-raspol {
+	left: 15px;
+	top: 71px;
+	font-size: 10px;
+	width: 80px;
+	font-family: "Lucida Sans Unicode";
+	line-height: 1.09em;	
+}
+div.diam-raspol span.black {
+	display: block;
+	position: relative;
+	top: 0px;
+	left: 3px;
+	transform: scale(1.1, 0.98);
+}
+div.diam-raspol span {
+	display: block;
+	position: relative;
+	width: 70px;
+	top: 0px;
+	left: 0px;
+	line-height: 1em;
+	font-weight: 500;
+}
+div.diam-disk span.shoter-diam {
+	display: block;
+	position: relative;
+	width: 35px;
+	top: -8px;
+	left: 48px;
+	transform: scale(0.94, 1);
+} 
+
+
+/* блок поиска дисков по параметрам  диаметр, количество крепёж отв, диаметр расположения крепежа */
+
+.diski-block {
+	display: block;
+	position: relative;
+	width: 66px;
+	height: 100px;
+	top: -3px;
+	left: 106px;
+	float: left;
+}
+.diski-block:after {
+	display: block;
+	position: absolute;
+	content: "";
+	left: 69px;
+	top: -11px;
+	width: 1px;
+	height: 105px;
+	background-color: #bdc6ca;
+	clear: both;
+} 
+.diski-disk-diam, .diski-disk-otv, .diski-disk-rasp {
+	position: absolute;
+}
+.diski-disk-diam {
+	top: 5px;
+	width: 57px; 
+}
+.diski-disk-otv {
+	top: 36px;
+	width: 50px;
+	padding-left: 5px;
+}
+.diski-disk-rasp {
+	top: 68px;
+	width: 58px;
+}
+
+.diski .submit {   /* кнопка поиска */
+	right: 18px;
+	top: 109px;
+}
+
+
+/* сторона ДЦО */
+.dco {
+	display: block;
+	position: relative;
+	left: 181px;
+	top: -12px;
+	width: 80px;
+}
+
+.dco-top {
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	font-size: 9px;
+	font-family: Lucida Sans Unicode;
+	color: rgb(0, 0, 0);
+	line-height: 0.889;
+	text-align: left;
+	font-weight: 600;
+	-webkit-transform: matrix( 1.11814283595329,0,0,1,0,0);
+}
+
+.dco-disctipt {
+	display: block;
+	position: absolute;
+	left: 8px;
+	top: 9px;
+	font-size: 8px;
+	font-family: Lucida Sans Unicode;
+	color: #77858b;
+	line-height: 1.0;
+	text-align: left;
+	-webkit-transform: matrix( 1.11814283595329,0,0,1,0,0);
+}
+.et-top {
+	display: block;
+	position: absolute;
+	left: 4px;
+	top: 61px;
+	font-size: 9px;
+	font-family: Lucida Sans Unicode;
+	color: rgb(0, 0, 0);
+	line-height: 0.889;
+	text-align: left;
+	-webkit-transform: matrix( 1.11814283595329,0,0,1,0,0);
+}
+.et-disctipt {
+	display: block;
+	position: absolute;
+	left: 7px;
+	top: 70px;
+	font-size: 8px;
+	font-family: Lucida Sans Unicode;
+	color: #77858b;
+	line-height: 0.889;
+	text-align: left;
+	-webkit-transform: matrix( 1.11814283595329,0,0,1,0,0);
+}
+
+
+.razmer-disk-dco, .razmer-disk-et {
+	position: absolute;
+	left: 5px;
+}
+.razmer-disk-dco {
+	top: 36px;
+	width: 57px; 
+}
+.razmer-disk-et {
+	top: 81px;
+	width: 58px;
+}
+
+
+/*  ----------- Центральная   часть  -----------  */
+
+ /* левый эсайд */
+ 
+aside {
+	width: 190px;
+	float: left;
+}
+
+					/*  каталог продукции в эсайде   */
+.catalog {	                 
+	display: inline-block;
+	position: relative;
+	left: 0px;
+	top: 4px;
+	box-sizing: border-box;
+	width: 182px;
+	height: 27px;
+	border: 1px solid rgb(121, 135, 141);
+	border-radius: 13px;
+	box-shadow: 1px 2px 2px 0px rgba(150, 150, 150, 0.7);
+}
+div.catalog:before {
+	display: block;
+	position: relative;
+	content: "";
+	float: left;
+	clear: both;
+	left: 3px;
+	top: 2px;
+	box-sizing: border-box;
+	width: 20px;
+	height: 20px; 
+	border-radius: 100%;
+	background-image: linear-gradient( 180deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+}
+.catalog p {
+	position: relative;
+	top: -7px;
+	left: 0px;
+	font-size: 13px;
+	font-family: Lucida Sans Unicode;
+	color: #114165;
+	padding-left: 26px;
+	line-height: 1;
+	text-align: left;
+	transform: scale(0.98, 1);
+}
+.catalog img {
+	display: block;
+	position: relative;
+	float: left;
+	left: -13px;
+	top: 5px;
+	box-sizing: border-box;
+	width: 12px;
+	height: 14px; 
+}
+
+						/*  подменю ШИНЫ в левом эсайде */
+.main-left-shini {		                /*  рамка */		
+	display: inline-block;
+	position: relative;
+	left: 2px;
+	top: 15px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	padding: 7px 0 0 31px;
+	width: 150px;
+	height: 28px;
+	border: 1px solid #79878d;
+	border-radius: 12px;
+}
+
+.main-left-shini:before {             /*  синий круг перед ШИНЫ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 2px;
+	left: 4px;
+	box-sizing: border-box;
+	width: 22px;
+	height: 22px; 
+	border-radius: 100%;
+	background-color: #114165;
+	z-index: 1;
+}
+.main-left-shini:after {					 /*  белый круг перед ШИНЫ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 7px;
+	left: 9px;
+	box-sizing: border-box;
+	width: 12px;
+	height: 12px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+.main-left-shini p {				/* слово ШИНЫ */
+	color: #114165;
+	font-size: 13px;
+	font-weight: 600;
+	transform: scale(1.05, 1);
+}
+		/* ---------- меню выбора ШИН -----------  левый эсайд   */
+aside ul.main-left-shini-ul {
+	display: block;
+	position: relative;
+	top: 16px;
+	left: 47px;
+	list-style-type: none;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+}
+aside ul li a {
+	display: block;
+	position: relative;
+	width: 140px;
+	line-height: 2.1;
+	font-size: 98%;
+	color: #465961;
+	text-decoration: none;
+}
+aside ul li.short-string a,
+aside ul li.short-string-four a {
+	line-height: 1.9;
+}
+aside ul li a:before {			/* --  синий кружок  -----  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 9px;
+	left: -9px;
+	box-sizing: border-box;
+	width: 7px;
+	height: 7px; 
+	border-radius: 100%;
+	background-color: #79878d;
+	z-index: 1;
+}
+aside ul li a:after {			    /* --  белый кружок  -----  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 11px;
+	left: -7px;
+	box-sizing: border-box;
+	width: 3px;
+	height: 3px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+aside ul li:hover a:before {		/* синий кружок при наведении на ссылку  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 9px;
+	left: -9px;
+	box-sizing: border-box;
+	width: 7px;
+	height: 7px; 
+	border-radius: 100%;
+	background-color: #114165;
+	z-index: 1;
+}
+aside ul li:hover a:after {				/* белый кружок при наведении на ссылку  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 11px;
+	left: -7px;
+	box-sizing: border-box;
+	width: 3px;
+	height: 3px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+aside ul li a:hover {							/* подчёркивание  */
+	display: block;
+	color: #114165;
+	font-family: "Arial-bold-italic";
+	font-size: 14px;
+	line-height: 1.9;
+	color: #0c3256;
+	text-decoration: underline;
+}
+
+
+/*  первая строчка в меню занижена  */
+
+aside ul li.short-string a:before {			/* --  синий кружок  -----  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 7px;
+	left: -9px;
+	box-sizing: border-box;
+	width: 7px;
+	height: 7px; 
+	border-radius: 100%;
+	background-color: #79878d;
+	z-index: 1;
+}
+aside ul li.short-string a:after {						/* --  белый кружок  -----  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 9px;
+	left: -7px;
+	box-sizing: border-box;
+	width: 3px;
+	height: 3px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+aside ul li.short-string:hover a:before {		/* синий кружок при наведении на ссылку  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 7px;
+	left: -9px;
+	box-sizing: border-box;
+	width: 7px;
+	height: 7px; 
+	border-radius: 100%;
+	background-color: #114165;
+	z-index: 1;
+}
+aside ul li.short-string:hover a:after {				/* белый кружок при наведении на ссылку  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 9px;
+	left: -7px;
+	box-sizing: border-box;
+	width: 3px;
+	height: 3px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+
+aside ul li.short-string a:hover {							/* подчёркивание  */
+	display: block;
+	color: #114165;
+	font-family: "Arial-bold-italic";
+	font-size: 14px;
+	color: #0c3256;
+	line-height: 1.75;
+	text-decoration: underline;
+}
+
+
+
+/*  четвертая строчка в меню Болты занижен круг  */
+
+aside ul li.short-string-four a:before {			/* --  синий кружок  -----  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 9px;
+	left: -9px;
+	box-sizing: border-box;
+	width: 7px;
+	height: 7px; 
+	border-radius: 100%;
+	background-color: #79878d;
+	z-index: 1;
+}
+aside ul li.short-string-four a:after {						/* --  белый кружок  -----  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 11px;
+	left: -7px;
+	box-sizing: border-box;
+	width: 3px;
+	height: 3px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+aside ul li.short-string-four:hover a:before {		/* синий кружок при наведении на ссылку  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 9px;
+	left: -9px;
+	box-sizing: border-box;
+	width: 7px;
+	height: 7px; 
+	border-radius: 100%;
+	background-color: #114165;
+	z-index: 1;
+}
+aside ul li.short-string-four:hover a:after {				/* белый кружок при наведении на ссылку  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 11px;
+	left: -7px;
+	box-sizing: border-box;
+	width: 3px;
+	height: 3px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+
+aside ul li.short-string-four a:hover {							/* подчёркивание  */
+	display: block;
+	color: #114165;
+	font-family: "Arial-bold-italic";
+	font-size: 14px;
+	color: #0c3256;
+	line-height: 1.75;
+	text-decoration: underline;
+}
+
+
+						/*  подменю ДИСКИ в  левом  эсайде */
+.main-left-diski {				
+	display: inline-block;
+	position: relative;
+	left: 2px;
+	top: 13px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	padding: 6px 0 0 35px;
+	width: 150px;
+	height: 28px;
+	border: 1px solid #79878d;
+	border-radius: 12px;
+}
+
+.main-left-diski:before {             /*  синий круг перед ДИСКИ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 2px;
+	left: 3px;
+	box-sizing: border-box;
+	width: 22px;
+	height: 22px; 
+	border-radius: 100%;
+	background-color: #114165;
+	z-index: 1;
+}
+.main-left-diski:after {					 /*  белый круг перед ДИСКИ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 7px;
+	left: 9px;
+	box-sizing: border-box;
+	width: 10px;
+	height: 12px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+.main-left-diski p {				/* слово ДИСКИ */
+	color: #114165;
+	font-size: 13px;
+	font-weight: 600;
+	transform: scale(1.1, 1);
+}
+/* ----- меню выбора ДИСКИ ------- левый эсайд  */
+aside ul.main-left-diski-ul {
+	display: block;
+	position: relative;
+	top: 13px;
+	left: 47px;
+	list-style-type: none;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+}	
+
+	
+	
+/* ----------------- подменю БОЛТЫ в  левом эсайде  ------------ */
+.main-left-bolt {				
+	display: inline-block;
+	position: relative;
+	left: 2px;
+	top: 10px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	padding: 7px 0 0 32px;
+	width: 150px;
+	height: 28px;
+	border: 1px solid #79878d;
+	border-radius: 12px;
+}
+
+.main-left-bolt:before {             /*  синий круг перед БОЛТЫ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 2px;
+	left: 3px;
+	box-sizing: border-box;
+	width: 22px;
+	height: 22px; 
+	border-radius: 100%;
+	background-color: #114165;
+	z-index: 1;
+}
+.main-left-bolt:after {					 /*  белый круг перед БОЛТЫ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 7px;
+	left: 9px;
+	box-sizing: border-box;
+	width: 10px;
+	height: 12px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+.main-left-bolt p {				/* слово БОЛТЫ */
+	position: relative;
+	top: -1px;
+	left: -3px;
+	color: #114165;
+	font-size: 13px;
+	font-weight: 600;
+	transform: scale(1.01, 1);
+}
+/* ---------- меню выбора БОЛТЫ ----------- левый эсайд  */
+aside ul.main-left-bolt-ul {
+	display: block;
+	position: relative;
+	top: 11px;
+	left: 48px;
+	list-style-type: none;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+}	
+aside ul.main-left-bolt-ul li{
+	transform: scale(1.01,1);
+}		
+
+
+	
+	
+/*  ----------------- ПРАВЫЙ   ЭСАЙД  -------------------  */	
+
+aside.r-aside {
+	width: 225px;
+	float: right;
+	display: block;
+	position: relative;
+}
+
+
+/*  БРЕНДЫ в правом эсайде   */
+.brand {	                 
+	display: block;
+	position: relative;
+	left: -4px;
+	top: 2px;
+	box-sizing: border-box;
+	width: 182px;
+	height: 27px;
+	border: 1px solid rgb(121, 135, 141);
+	border-radius: 13px;
+	box-shadow: 1px 2px 2px 0px rgba(150, 150, 150, 0.7);
+}
+div.brand:before {           /* синий груг  */
+	display: block;
+	position: relative;
+	content: "";
+	float: left;
+	clear: both;
+	left: 3px;
+	top: 1px;
+	box-sizing: border-box;
+	width: 22px;
+	height: 22px; 
+	border-radius: 100%;
+	background-image: linear-gradient( 180deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+}
+.brand img {				/* книжка */
+	display: block;
+	position: relative;
+	float: left;
+	left: -14px;
+	top: 5px;
+	box-sizing: border-box;
+	width: 12px;
+	height: 14px; 
+}
+.brand p {
+	position: relative;
+	top: 6px;
+	left: -5px;
+	font-size: 14px;
+	font-family: Lucida Sans Unicode;
+	color: #114165;
+	padding-left: 26px;
+	line-height: 1;
+	text-align: left;
+	transform: scale(0.98, 1);
+}
+
+	
+/*  подменю ШИНЫ в правом эсайде */
+.main-right-shini {				
+	display: block;
+	position: relative;
+	left: 11px;
+	top: 16px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	padding: 7px 0 0 32px;
+	width: 136px;
+	height: 28px;
+	border: 1px solid #79878d;
+	border-radius: 12px;
+	}
+	
+.main-right-shini:before {             /*  синий круг перед ШИНЫ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 2px;
+	left: 4px;
+	box-sizing: border-box;
+	width: 22px;
+	height: 22px; 
+	border-radius: 100%;
+	background-color: #114165;
+	z-index: 1;
+}
+.main-right-shini:after {					 /*  белый круг перед ШИНЫ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 7px;
+	left: 9px;
+	box-sizing: border-box;
+	width: 12px;
+	height: 12px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+.main-right-shini p {				/* слово ШИНЫ */
+	position: relative;
+	top: -1px;
+	left: 1px;
+	color: #114165;
+	font-size: 13px;
+	transform: scale(1.05, 1);
+}	
+	
+	
+/* Блок чек-бокс ШИНЫ в правом эсайде */
+
+.check-brand-shini {
+	position: relative;
+	top: 18px;
+	left: 36px;
+	line-height: 1.85;
+	font-size: 14px;
+}
+.check-brand-shini input[type="checkbox"],
+.check-brand-diski input[type="checkbox"] {
+	display:none;
+}
+.check-brand-shini input[type="checkbox"] + label,
+.check-brand-diski input[type="checkbox"] + label {
+	height: 27px;
+	font-size: 91%;
+	font-family: Lucida Sans Unicode;
+	font-weight: 500;
+	color: #465961;
+	cursor: pointer;
+}
+.check-brand-shini input[type="checkbox"] + label::before {
+	content: ""; 
+    display: inline-block;
+	position: relative;
+	left: -14px;
+	top: 1px;
+	width: 7px;
+	height: 7px; 
+	border: 1px solid #1c4360;
+	border-radius: 1px;
+	box-shadow: inset 1px 1px 1px 0px rgba(131, 131, 131, 0.7), 0px 0px 0px 1px rgba(128, 154, 173, 0.8), 0px 0px 0px 2px rgba(213, 221, 228, 0.7);
+}
+
+.check-brand-shini input[type="checkbox"]:checked + label::before {
+	content: "";
+    display: inline-block;
+	position: relative;
+	left: -14px;
+	top: 1px;
+	width: 7px;
+	height: 7px; 
+	border: 1px solid #1c4360;
+	border-radius: 1px;
+	box-shadow: inset 1px 1px 1px 1px rgba(131, 131, 131, 0.7), -1px 1px 0px 0px rgba(128, 154, 173, 0.8), 0px 0px 0px 2px rgba(213, 221, 228, 0.7);                         
+	background-image: url('../img/checked.png'); 
+	background-size: cover;
+}
+.check-brand-diski input[type="checkbox"] + label::before {
+	content: ""; 
+    display: inline-block;
+	position: relative;
+	left: -14px;
+	top: 0px;
+	width: 7px;
+	height: 7px; 
+	border: 1px solid #1c4360;
+	border-radius: 1px;
+	box-shadow: inset 1px 1px 1px 0px rgba(131, 131, 131, 0.7), 0px 0px 0px 1px rgba(128, 154, 173, 0.8), 0px 0px 0px 2px rgba(213, 221, 228, 0.7);
+}
+.check-brand-diski input[type="checkbox"]:checked + label::before {
+	content: "";
+    display: inline-block;
+	position: relative;
+	left: -14px;
+	top: 1px;
+	width: 7px;
+	height: 7px; 
+	border: 1px solid #1c4360;
+	border-radius: 1px;
+	box-shadow: inset 1px 1px 1px 1px rgba(131, 131, 131, 0.7), -1px 1px 0px 0px rgba(128, 154, 173, 0.8), 0px 0px 0px 2px rgba(213, 221, 228, 0.7);                         
+	background-image: url('../img/checked.png'); 
+	background-size: cover;
+}
+
+/*  подменю ДИСКИ в правом эсайде */
+.main-right-diski {				
+	display: block;
+	position: relative;
+	left: 10px;
+	top: 27px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	padding: 7px 0 0 32px;
+	width: 137px;
+	height: 28px;
+	border: 1px solid #79878d;
+	border-radius: 12px;
+	}
+
+.main-right-diski:before {             /*  синий круг перед ДИСКИ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 2px;
+	left: 3px;
+	box-sizing: border-box;
+	width: 21px;
+	height: 22px; 
+	border-radius: 100%;
+	background-color: #114165;
+	z-index: 1;
+}
+.main-right-diski:after {		 /*  белый круг перед ДИСКИ  */
+	display: block;
+	position: absolute;
+	content: "";
+	float: left;
+	clear: both;
+	top: 7px;
+	left: 8px;
+	box-sizing: border-box;
+	width: 11px;
+	height: 12px; 
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+}
+.main-right-diski p {				/* слово ДИСКИ */
+	position: relative;
+	top: -2px;
+	left: -1px;
+	color: #114165;
+	font-size: 14px;
+}	
+.check-brand-diski {
+	position: relative;
+	top: 31px;
+	left: 36px;
+	line-height: 1.85;
+	font-size: 14px;
+}	
+	
+	
+/*  кнопка  ВЫБРАТЬ  */
+	
+.submit-brand {
+	display: block;
+	position: relative;
+	left: 20px;
+	top: 46px;
+	border: 1px solid rgb(167, 171, 174);
+	border-radius: 12px;
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	box-shadow: 1px 2px 1px 0px rgba(188,188,188,0.7);
+	width: 82px;
+	height: 27px;
+	box-sizing: border-box;
+	font-family: Arial;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: rgb(229, 233, 234);
+	line-height: 1.2;
+	text-align: center;
+	padding-bottom: 2px;
+
+}
+	
+	
+         /* ----------------   ЦЕНТРАЛЬНАЯ   ЧАСТЬ  ---------------  */	
+.central-part {
+	display: block;
+	margin-left: 192px;
+	margin-right: 191px;
+	width: 526px;
+	height: 628px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	background-image: -webkit-linear-gradient( 90deg, rgba(35,75,93,0.5) 0%, rgba(118,141,151,0.5) 57%, rgba(201,207,209,0.6) 100%);
+	padding: 16px 0 0 23px;
+}
+/* string 1 */
+.fisrt-line-pic {
+	display: inline-block;
+	list-style-type: none;
+	margin-bottom: 41px;
+}
+.fisrt-line-pic li {
+	float: left;
+}
+
+li.li-first-l-11 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin-right: 29px;
+}
+li.li-first-l-21 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin-right: 29px;
+}
+
+/* string 2 */
+.second-line-pic {
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	margin-bottom: 47px;
+}
+.second-line-pic li {
+	margin-right: 29px;
+	float: left;
+}
+
+li.li-first-l-12 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin-right: 28px;
+}
+
+
+
+/* string 3 */
+.third-line-pic {
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+}
+.third-line-pic li {
+	float: left;
+}
+
+li.li-third-l-13 {
+	margin-right: 28px;
+}
+li.li-third-l-23 {
+	margin-right: 30px;
+}
+
+
+
+
+/* Описание  Бренда в картинках */
+
+.shin-brand  {
+	font-size: 16px;
+	font-family: "Lucida Sans Unicode";
+	font-stretch: semi-condensed;
+	font-weight: 600;
+	color: rgb(32, 105, 136);
+	line-height: 0.875;
+	text-align: center;
+	-webkit-transform: matrix(0.91187526419384,0,0,0.91187526419384,0,0);
+	position: relative;
+}
+
+ /* string1 */
+.brand-shin-11 {
+	top: 0px;
+	left: -1px;
+}
+.brand-shin-21 {
+	top: 0px;
+	left: 1px;
+}
+.brand-shin-31 {
+	top: 0px;
+	left: 1px;
+}
+ /* string 2 */
+.brand-shin-12 {
+	top: 0px;
+	left: -1px;
+}
+.brand-shin-32 {
+	top: -1px;
+	left: 2px;
+}
+
+ /* string 3 */
+.brand-shin-13 {
+	top: -1px;
+	left: -2px;
+}
+.brand-shin-23 {
+	top: 0px;
+	left: 3px;
+}
+.brand-shin-33 {
+	top: 0px;
+	left: 2px;
+}
+
+
+/* Описание  типа шин в картинках   */
+.shin-discrip {
+	font-size: 13px;
+	font-family: "Lucida Sans Unicode";
+	color: rgb(31, 37, 40);
+	line-height: 0.875;
+	text-align: center;
+	margin-bottom: 3px;
+	font-weight: 600;
+	transform: scale(0.95,1);
+	position: relative;
+}
+ /* string 1 */
+.shin-11 {
+	top: 2px;
+	left: 2px;
+}
+.shin-21 {
+	top: 2px;
+	left: 2px;
+}
+.shin-31 {
+	top: 2px;
+	left: -1px;
+}
+ /* string 2 */
+.shin-12 {
+	top: 2px;
+	left: 2px;
+}
+.shin-22 {
+	top: 1px;
+	left: 1px;
+}
+.shin-32 {
+	top: 1px;
+	left: 0px;
+}
+ /* string 3 */ 
+.shin-13 {
+	top: 1px;
+	left: 1px;
+}
+.shin-23 {
+	top: 2px;
+	left: 3px;
+}
+.shin-33 {
+	top: 2px;
+	left: 0px;
+} 
+ 
+
+							/* figure глобальный */
+figure {
+	border: 1px solid rgb(164, 174, 177);
+	border-radius: 10px/8px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 18px;
+	width: 136px;    /* по линейке */
+	height: 127px;    /* по линейке */
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+
+
+/* figure  индивидуальный */
+/*  string 1 */
+figure.fig-1-1 {
+	top: 0px;
+	left: 0px;
+	/*width:   px;*/
+}
+figure.fig-2-1 {
+	top: 0px;
+	left: 0px;
+	width: 137px;
+}
+figure.fig-3-1 {
+	top: 0px;
+	left: 0px;
+	width: 137px;
+}	
+
+/*  string 2 */
+figure.fig-1-2 {
+	top: 0px;
+	left: 0px;
+	/*width:   px;*/
+}
+figure.fig-2-2 {
+	top: 0px;
+	left: -1px;
+	width: 137px;
+	height: 126px;
+}
+figure.fig-3-2 {
+	top: 0px;
+	left: 0px;
+	width: 137px;
+	height: 126px;
+}	
+
+/*  string 3 */
+figure.fig-1-3 {
+	top: 0px;
+	left: 0px;
+}
+figure.fig-2-3 {
+	top: 0px;
+	left: 1px;
+	width: 137px;
+}
+figure.fig-3-3 {
+	top: 0px;
+	left: 0px;
+	width: 137px;
+}	
+
+/*   расположение картинки   */
+figure img {
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+/* string 1 */
+figure img.shin-img-11 {
+	top: 0px;
+	left: -2px;
+}
+figure img.shin-img-21 {
+	top: -1px;
+	left: -1px;
+}
+figure img.shin-img-31 {
+	top: -1px;
+	left: -1px;
+}
+/* string 2 */
+figure img.shin-img-12 {
+	top: 0px;
+	left: -2px;
+}
+figure img.shin-img-22 {
+	top: -2px;
+	left: -1px;
+}
+figure img.shin-img-32 {
+	top: -2px;
+	left: -1px;
+}
+/* string 3 */
+figure img.shin-img-13 {
+	top: 0px;
+	left: -2px;
+}
+figure img.shin-img-23 {
+	top: -1px;
+	left: -1px;
+}
+figure img.shin-img-33 {
+	top: -1px;
+	left: -1px;
+}
+
+
+/*  figcaption  глобальный */
+
+figcaption {
+	font-size: 93%;
+	font-family: "Arial-bold-italic";
+	color: rgb(17, 65, 101);
+	line-height: 0.627;
+	text-align: center;
+	position: relative;
+	left: 3px;
+	word-spacing: -1px;
+}
+
+span.uah {
+	font-size: 80%;
+}
+
+/*  figcaption  индивидуальный */
+
+  /* string 1 */
+figcaption.tovar-11 {
+	top: 0px;
+	left: 4px;
+}
+figcaption.tovar-21 {
+	top: 1px;
+	left: 6px;
+	word-spacing: 2px;
+}
+figcaption.tovar-31 {
+	top: 0px;
+	left: 6px;
+	word-spacing: 1px;
+}
+  /* string 2 */
+figcaption.tovar-12 {
+	top: -1px;
+	left: 4px;
+}
+figcaption.tovar-22 {
+	top: -1px;
+	left: 7px;
+	word-spacing: 2px;
+}
+figcaption.tovar-32 {
+	top: 0px;
+	left: 5px;
+	word-spacing: 1px;
+}  
+  /* string 3 */
+figcaption.tovar-13 {
+	top: 0px;
+	left: 4px;
+}
+figcaption.tovar-23 {
+	top: 0px;
+	left: 7px;
+	word-spacing: 2px;
+}
+figcaption.tovar-33 {
+	top: 0px;
+	left: 5px;
+	word-spacing: 1px;
+}  
+
+
+/*   ------------------------   FOOTER  -----------------------------  */
+
+/*  Brand logos */
+.brand-logo {
+	display: block;
+	width: 100%;
+	height: 90px;
+	box-sizing: border-box;
+	text-align: left;
+	padding: 42px 0 0 150px;
+}
+.brand-logo ul {
+	list-style-type: none;
+	margin-left: 12px;
+}
+.brand-logo ul li {
+	float: left;
+	margin-right: 12px;
+}
+.brand-logo ul li:nth-child(2) {
+	margin-right: 13px;
+}
+.brand-logo ul li:nth-child(3) {
+	margin-right: 15px;
+}
+.brand-logo ul li:nth-child(4) {
+	position: relative;
+	top: -1px;
+	margin-right: 12px;
+}
+.brand-logo ul li:nth-child(5) {
+	margin-right: 13px;
+}
+.brand-logo ul li:nth-child(6) {
+	position: relative;
+	top: -4px;
+	margin-right: 13px;
+}
+.brand-logo ul li:nth-child(7) {
+	position: relative;
+	top: 1px;
+	margin-right: 15px;
+}
+/*  second part of FOOTER  */
+.small-menu {
+	display: block;
+	width: 910px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid rgb(36, 44, 62);
+	background: #213a4d;
+	margin-left: 45px;
+	text-align: left;
+}
+.small-menu ul {
+	display: inline-block;
+	position: relative;
+	margin-top: 8px;
+	margin-left: 296px;
+	font-size: 13px;
+}
+.small-menu ul li {
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+}
+
+
+.small-menu ul li:nth-child(1) a:after {
+	display: block;
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 11px;
+	border-right: 1px solid #8d989f;
+	background-color: #7a878f;
+	top: 4px;
+	left: 97px;
+}
+.small-menu ul li:nth-child(2) a:after {
+	display: block;
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 11px;
+	border-right: 1px solid #8d989f;
+	background-color: #7a878f;
+	top: 4px;
+	left: 82px;
+}
+.small-menu ul li:nth-child(3) a:after {
+	display: block;
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 11px;
+	border-right: 1px solid #afb7bc;
+	background-color: #7a878f;
+	top: 4px;
+	left: 68px;
+}
+	
+.small-menu ul li a{			/* оформление ссылок */
+	display: block;
+	position: relative;
+	font-family: "Arial";
+	color: #bec6c9;
+	line-height: 1.364;
+	transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
+	text-decoration: none;
+	text-align: center;
+}
+.small-menu ul li:nth-child(2) a::first-letter,
+.small-menu ul li:nth-child(3) a::first-letter,
+.small-menu ul li:nth-child(4) a::first-letter
+{
+	font-size: 13px;
+}
+
+.small-menu ul li:first-child{    /* ширина элементов меню  */
+	width: 92px;
+	word-spacing: -1px;
+	font-size: 105%;
+}	
+.small-menu ul li:nth-child(2){    
+	width: 79px;
+	font-size: 106%;
+	padding-left: 1px;
+}
+.small-menu ul li:nth-child(3){    
+	width: 66px;
+	font-size: 106%;
+}
+.small-menu ul li:last-child{    
+	width: 86px;
+	font-size: 106%;
+}	
+
+.small-menu ul li a:hover {
+	color: #52abcb;
+}
+.adv {
+	display: block;
+	position: relative;
+	top: 5px;
+	left: -1px;
+	width: 100%;
+	height: 20px;
+	box-sizing: border-box;
+	font-size: 10px;
+	font-family: "Arial";
+	color: #7f4740;
+	line-height: 1.8;
+	text-align: center;
+	text-decoration: none;
+}
